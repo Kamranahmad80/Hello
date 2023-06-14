@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <form action="">
+        <!--search-->
+        <input type="search" name="search" placeholder="search"><br><br>
+        <!--text-->
+        <label for="name" >Enter Your Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+        <!--Email-->
+        <label for="email">Enter Your Email:</label>
+        <input type="email" name="email" id="email"required><br><br>
+        <!--password-->
+        <label for="password">Enter Your Password:</label>
+        <input type="password" name="password" id="password" required><br><br>
+        <!--number-->
+        <label for="number">Phone Number:</label>
+        <input type="number" name="number" id="number" required><br><br>
+        <label for="age">Enter Your Age:</label>
+        <input type="number" name="age" id="age" min="18" max="35" required><br><br>
+        <!-- Radio Buttons -->
+        <label >Gender:</label><br><br>
+        <input type="radio" name="gender" id="Male" required>
+        <label for="Male">Male</label><br>
+        <input type="radio" name="gender" id="Female" required>
+        <label for="Female">Female</label><br><br>
+        <!--checkboxes-->
+        <label>Languages:</label><br>
+        <input type="checkbox" id="html" name="html">
+        <label for="html">HTML</label><br>
+        <input type="checkbox" name="css" id="css">
+        <label for="css">CSS</label><br>
+        <input type="checkbox" name="python" id="python">
+        <label for="python">PYTHON</label><br>
+        <input type="checkbox" name="java" id="java">
+        <label for="java">java</label><br><br>
+        <!-- Select Box -->
+        <label >Country:</label>
+        <select name="Country" required> 
+            <option name="selected">Select Country</option> 
+            <option name="United States">United States</option> 
+            <option name="United Kingdom">United Kingdom</option> 
+            <option name="Afghanistan">Afghanistan</option> 
+            <option name="Thailand">Thailand</option> 
+            <option name="Turkey">Turkey</option> 
+            <option name="ukraine">Ukraine</option> 
+            <option name="United Arab Emirates">United Arab Emirates</option> 
+            <option name="pakistan">pakistan</option>
+            <option value="Zimbabwe">Zimbabwe</option>
+            </select><br><br>
+            <!--date&time-->
+            <label for="date&time">Date:</label>
+            <input type="datetime-local" name="date" id="date&time"><br><br>
+            <!--file-->
+            <label for="file">Additional documents:</label><br>
+            <input type="file" name="docs" id="file"><br><br>
+            <!--url-->
+            <label for="url">add a link:</label><br>
+            <input type="url" name="url" id="url"><br><br>
+            <!--color-->
+            <label for="color">Fav color:</label><br>
+            <input type="color" name="color" id="color"><br><br>
+            <!--Range-->
+            <label for="volume">Volume(0 to 50)</label><br>
+            <input type="range" name="volume" id="volume"><br><br>
+
+            <!--Submit button-->
+            <input type="submit"><br>
+            <!--Reset-->
+            <input type="reset">
+
+
+        
+        
+
+    </form>
+</html>
